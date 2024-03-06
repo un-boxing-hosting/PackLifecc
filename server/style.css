@@ -1,0 +1,113 @@
+body {
+    background-blend-mode: overlay;
+    background-image: url('pix/logo.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-color: rgba(61, 26, 26, 0.9);
+    text-align: center;
+    color: rgb(181, 168, 168);
+    height: 100vh;
+    background-position: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15%;
+}
+
+.da01 {
+    
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    width: 95%;
+    height: 95%;
+    border-radius: 15%;
+    opacity: 50%;
+}.da03 {
+    
+    align-content: center;
+	justify-content: center;
+    border: 3px solid black;
+    width: 100%;
+    height: 50%;
+    border-radius: 15%;
+    opacity: 100%;
+}
+.cars01{
+	width:50%;
+	height: 30%;
+		
+}
+
+@media (max-width:600px) {
+    .da01 {
+        margin-top: 5%;
+        width: 95%;
+        height: 50%;
+    }
+    .box {
+        width: 100vw;
+        height: 83vh;
+
+    }
+    .da02 {
+        width: 95%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+	    .da03 {
+        width: 95%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+		.cars01{
+		width: 70%;
+		height: 40%;
+	}
+}
+
+@media (min-width:600px) {
+	.cars01{
+		width: 50%;
+		height: 30%;
+	}
+    .da01 {
+        width: 40%;
+        height: 95%;
+    }
+    .box {
+        width: 80vw;
+        height: 80vh;
+
+    }
+    .da02 {
+        width: 40%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+	    .da03 {
+        width: 80%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+			align-content: center;
+    }
+}
+/* CSS Document */
+
