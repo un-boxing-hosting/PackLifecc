@@ -1,9 +1,17 @@
+const config = require('./config.json');
 const express = require('express');
+const utils = require('@un-boxing-hosting/boxing-hosting-utils');
+const db = new utils.DB(config.db);
+const uuid = require('uuid').v4
+const session = require('express-session')
+const FileStore = require('session-file-store')(session);
+const passport = require('passport');
 const os = require(`os`);
 const boxname = os.hostname();
 const port = 8101;
 //const dirname = "dearassassin/server";
 //const port = 8099;
+const saltRounds = 10;
 var dirname = "sites/PackLifecc/server";
 //const dirname = "server";
 if (boxname == "un-boxing-mans-pc") {
@@ -21,9 +29,10 @@ app.use(express.urlencoded({
 }));
 app.set(`trust proxy`, true);
 
-//app.use(favicon(`${dirname}/pix/favicon.ico`))
+app.use(favicon(`${dirname}/pix/favicon.ico`))
 app.use(express.static(dirname + "/"))
-
+app.use(`/events`, express.static(dirname + '/events.html'));
+app.use(`/about`, express.static(dirname + '/about.html'));
 
 app.listen(port, () => {
     console.log(`PackLifecc Listening on port ${port}`)
