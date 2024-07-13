@@ -7,6 +7,10 @@ img {
 	width: 200px;
 	height: 128px;
 	}
+.events {
+	border: thick;
+	border-color: antiquewhite;
+}
 img:hover {
     transform: scale(1.1);
 }
