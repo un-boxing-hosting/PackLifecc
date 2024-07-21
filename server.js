@@ -39,7 +39,7 @@ app.use(`/about`, express.static(dirname + '/about.html'));
 
 
 // configure passport.js to use the local strategy
-passport.use(new LocalStrategy({
+/* passport.use(new LocalStrategy({
     usernameField: 'email'
 },
 (email, password, done) => {
@@ -75,7 +75,7 @@ done(null, user);
 passport.deserializeUser(function (user, done) {
 done(null, user);
 });
-
+ */
 app.listen(port, () => {
     console.log(`PackLifecc Listening on port ${port}`)
 
