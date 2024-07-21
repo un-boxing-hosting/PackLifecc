@@ -10,10 +10,10 @@ window.onload = async function () {
         //every 3rd event create a new row
             if (i % 3 == 0) {
                 row++;
-                var row = document.createElement("div");
-                row.className = "row";
-                row.id = "row" + row;
-                document.getElementById("container").appendChild(row);
+                var rowdiv = document.createElement("div");
+                rowdiv.className = "row";
+                rowdiv.id = "row" + row;
+                document.getElementById("container").appendChild(rowdiv);
             }
             await CreateBlock(jsonEvents.list[i], `row${row}`);
     }
@@ -21,10 +21,10 @@ window.onload = async function () {
         //every 3rd event create a new row
             if (i % 3 == 0) {
                 pastrow++;
-                var pastrow = document.createElement("div");
-                pastrow.className = "row";
-                pastrow.id = "pastrow" + row;
-                document.getElementById("past-container").appendChild(pastrow);
+                var pastrowdiv = document.createElement("div");
+                pastrowdiv.className = "row";
+                pastrowdiv.id = "pastrow" + row;
+                document.getElementById("past-container").appendChild(pastrowdiv);
             }
             await CreateBlock(jsonEvents.pastlist[i], `pastrow${pastrow}`);
         
@@ -79,5 +79,6 @@ async function CreateBlock(info, row) {
     cardBody.appendChild(a2);
     card.appendChild(cardBody);
     col.appendChild(card);
+    console.log(row);   
     document.getElementById(row).appendChild(col);
 }
