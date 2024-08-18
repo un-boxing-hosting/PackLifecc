@@ -1,43 +1,8 @@
 {
-    "list":[
+    "list":[   
         {
             "type": "present",
-            "details": "🐺Friday July 26th Steamboat <br /> Twilight Parade in La Center, WA <br /> lineup starts at 6:30pm",
-            "link": "https://www.facebook.com/share/PW4VoPp7fa3HpMBS/?mibextid=9l3rBW",
-            "imageLink": "pix/twilight-prade.jpg"
-            
-        },
-        {
-            "type": "not-present",
-            "details": "Sunday July 28th Cars For Kids 1pm-4pm 7713 MacArthur Boulevard Vancouver, WA 98664",
-            "link": "https://www.instagram.com/reel/C9K8e6uPqae/?utm_source=ig_web_copy_link",
-            "imageLink": "#"
-            
-        },
-        {
-            "type": "present",
-            "details": "🐺Friday August 3nd Time 11AM-6PM <br /> Northwest Super Show Portland Expo Center",
-            "link": "https://www.facebook.com/Orchardscarsandcoffee",
-            "imageLink": "pix/nw-super-show.jpg"
-            
-        },
-        {
-            "type": "not-present",
-            "details": "Sunday August 4th 2pm-5pm <br /> Cruise To Snoug 54-40 Brewery <br /> 3801 Truman Washougal, WA",
-            "link": "https://www.facebook.com/Orchardscarsandcoffee",
-            "imageLink": "pix/crouise-to-the-shoug.jpg"
-            
-        },
-        {
-            "type": "present",
-            "details": "🐺Sunday August 11th 11am <br /> Hot Wheels &amp Hot Meals Cruise-in <br /> Orchards Cars And Coffee to Smoky Hearth",
-            "link": "https://www.facebook.com/share/cx5xHjxK2pWty66A/?mibextid=qi2Omg",
-            "imageLink": "pix/hot-weels-cruise-24.png"
-            
-        },
-        {
-            "type": "present",
-            "details": "🐺Sunday Aug 18th Time 3PM-7PM <br /> Annual Bell Tower Car Show",
+            "details": "🐺Sunday Aug 18th @ 3PM-7PM <br /> Annual Bell Tower Car Show",
             "link": "https://www.facebook.com/share/kucptCFxHrSHLJhn/",
             "imageLink": "pix/12th-bell-tower.jpg"
             
@@ -65,11 +30,39 @@
     ],
     "pastlist":[
         {
-            "type": "past",
-            "details": "Pack Life Car Club May 5th 2024 Car Show",
-            "link": "https://www.facebook.com/events/791025552971518/",
-            "imageLink": "pix/may-car-show-flyer-1.jpg"
-
+            "type": "present",
+            "details": "🐺Sunday August 11th 11am <br /> Hot Wheels &amp Hot Meals Cruise-in <br /> Orchards Cars And Coffee to Smoky Hearth",
+            "link": "https://www.facebook.com/share/cx5xHjxK2pWty66A/?mibextid=qi2Omg",
+            "imageLink": "pix/hot-weels-cruise-24.png"
+            
+        },
+        {
+            "type": "not-present",
+            "details": "Sunday August 4th 2pm-5pm <br /> Cruise To Snoug 54-40 Brewery <br /> 3801 Truman Washougal, WA",
+            "link": "https://www.facebook.com/Orchardscarsandcoffee",
+            "imageLink": "pix/crouise-to-the-shoug.jpg"
+            
+        },
+        {
+            "type": "present",
+            "details": "🐺Friday August 3nd Time 11AM-6PM <br /> Northwest Super Show Portland Expo Center",
+            "link": "https://www.facebook.com/Orchardscarsandcoffee",
+            "imageLink": "pix/nw-super-show.jpg"
+            
+        },
+        {
+            "type": "not-present",
+            "details": "Sunday July 28th Cars For Kids 1pm-4pm 7713 MacArthur Boulevard Vancouver, WA 98664",
+            "link": "https://www.instagram.com/reel/C9K8e6uPqae/?utm_source=ig_web_copy_link",
+            "imageLink": "#"
+            
+        },
+        {
+            "type": "present",
+            "details": "🐺Friday July 26th Steamboat <br /> Twilight Parade in La Center, WA <br /> lineup starts at 6:30pm",
+            "link": "https://www.facebook.com/share/PW4VoPp7fa3HpMBS/?mibextid=9l3rBW",
+            "imageLink": "pix/twilight-prade.jpg"
+            
         },
         {
             "type": "past",
@@ -77,6 +70,14 @@
             "link": "#",
             "imageLink": "pix/Tribute-to-Ron-Wade-July-13th.jpg"
             
+        },
+        {
+            "type": "past",
+            "details": "Pack Life Car Club May 5th 2024 Car Show",
+            "link": "https://www.facebook.com/events/791025552971518/",
+            "imageLink": "pix/may-car-show-flyer-1.jpg"
+
         }
+
     ]
 }

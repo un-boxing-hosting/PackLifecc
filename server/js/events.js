@@ -23,7 +23,7 @@ window.onload = async function () {
                 pastrow++;
                 var pastrowdiv = document.createElement("div");
                 pastrowdiv.className = "row";
-                pastrowdiv.id = "pastrow" + row;
+                pastrowdiv.id = "pastrow" + pastrow;
                 document.getElementById("past-container").appendChild(pastrowdiv);
             }
             await CreateBlock(jsonEvents.pastlist[i], `pastrow${pastrow}`);
