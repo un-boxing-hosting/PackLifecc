@@ -1,5 +1,5 @@
 // JavaScript Document
-const host = "https://packlifecarclub.com";
+const host = "https://" + window.location.hostname; //"https://packlifecarclub.com";
 window.onload = async function () {
     const events = await fetch(`${host}/events.json`);
     const jsonEvents = await events.json();
@@ -56,6 +56,8 @@ async function CreateBlock(info, row) {
     cardHeader.className = "panel-heading";
     var a1 = document.createElement("a");
     a1.href = info.link;
+    a1.target = "_blank";
+    a1.rel = "noopener noreferrer";
     var h4 = document.createElement("h4");
     var strong = document.createElement("strong");
     strong.innerHTML = info.details;
