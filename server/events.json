@@ -1,12 +1,11 @@
 {
-    "temp":         {
-        "type": "present",
-        "details": "🐺Saturday September 21ST 12pm-3pm Cascadia Tech Car Show Vancouver, WA",
-        "link": "https://www.facebook.com/share/JeQ5C1deZ6145RWQ/",
-        "imageLink": "pix/cta-summer-fest-24.png"
-    },
     "list":[   
-
+        {
+            "type": "present",
+            "details": "🐺Orchards Cars &amp; Coffee @ Vancouver Mall Every Sunday",
+            "link": "https://www.facebook.com/Orchardscarsandcoffee",
+            "imageLink": "pix/orchards-cars-coffee.jpg"
+        }
     ],
     "pastlist":[
         {
