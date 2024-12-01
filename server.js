@@ -33,7 +33,8 @@ app.set(`trust proxy`, true);
 app.use(favicon(`${dirname}/pix/favicon.ico`))
 app.use(express.static(dirname + "/"))
 app.use(`/events`, express.static(dirname + '/events.html'));
-app.use(`/about`, express.static(dirname + '/about.html'));
+app.use(`/about`, express.static(dirname + '/members.html'));
+app.use(`/members`, express.static(dirname + '/members.html'));
 
 
 

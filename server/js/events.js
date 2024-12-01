@@ -1,7 +1,7 @@
 // JavaScript Document
 const host = "https://" + window.location.hostname; //"https://packlifecarclub.com";
 window.onload = async function () {
-    const events = await fetch(`${host}/events.json`);
+    const events = await fetch(`${host}/json/events.json`);
     const jsonEvents = await events.json();
     console.log(jsonEvents);
     var row = 0;

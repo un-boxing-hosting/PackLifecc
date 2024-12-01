@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="og:title" content="Pack Life Car Club" />
-		<meta name="og:description" content=" Pack Life Car Club About" />
+		<meta name="og:title" content="Pack Life Car Club Members" />
+		<meta name="og:description" content=" Pack Life Car Club Members" />
 		<meta
 			name="og:keywords"
 			content="Pack Life Car Club,Pack,PackLife,Car,club,carclub"
@@ -27,23 +27,42 @@
 		/>
 
 		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="js/members.js"></script>
 	</head>
 
 	<body>
+		<noscript>
+			<div class="alert alert-danger text-center" role="alert">
+				Please enable JavaScript to view this website properly.
+			</div>
+		</noscript>
 		<header>
 			<!-- place navbar here -->
 		</header>
 		<main>
-			<div class="container mt-4">
+			<div class="container mt-4"  id="container">
+
+							<div class="spinner-overlay" id="spinner-overlay">
+   					<div class="spinner-container">
+   						<div class="spinner-border text-primary" role="status">
+   							<span class="visually-hidden">Loading...</span>
+   						</div>
+   					</div>
+   				</div>
+
+
+   
 				<div
 					class="row flex-column justify-content-center align-content-center"
 				>
 					<h1>PACK LIFE CAR CLUB</h1>
 				</div>
-				<div class="row justify-content-center align-content-center">
+				<div  class="row justify-content-center align-content-center">
 					<p>
 						<a href="/" class="m-1"> Home </a>
+						<a href="/members" class="m-1"> Members</a>
 						<a href="/events" class="m-1"> Events</a>
+
 						<a href="https://www.facebook.com/PackLifeCC" class="m-1">
 							Facebook
 						</a>
@@ -58,7 +77,7 @@
 				</div>
 				<br />
 
-				<div class="row">
+				<div hidden class="row">
 					<div class="col-md-6">
 						<div class="media">
 							<a><img src="pix/Tomas-Car.png" class="img-fluid mr-3 cars" /></a>
@@ -80,7 +99,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div hidden class="row">
 					<div class="col-md-6">
 						<div class="media">
 							<a>
@@ -93,7 +112,7 @@
 						</div>
 					</div>
 				</div>
-        <div class="row">
+        <div hidden class="row">
 					<div class="col-md-6">
 						<div class="media">
 							<a>

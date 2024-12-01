@@ -1,0 +1,139 @@
+{
+    "list":[   
+        "thomasm",
+        "wayner",
+        "chasec",
+        "cameronn",
+        "victork",
+        "braidenm"
+    ],
+    "members":{
+        "thomasm":{
+           
+            "name": "Thomas M ",
+            "title": "President",
+            "image": "pix/Cars-Primary/Tom-car1.jpeg",
+            "bios": "I’ve been into Cars and Lowriding since i was a kid",
+            "biol": "none",
+            "contact":{ 
+                "email": "private",
+                "phone": "private",
+                "address": "private"
+            },
+            "carinfo":{ 
+                "make": "Lincoln",
+                "model": "Town Car",
+                "year": "1983",
+                "mods": "airbags, custom vinyl top custom stereo system, undercarriage, lighting, custom due exhaust aftermarket intake carburetor"
+            }
+        },
+        "wayner":{
+            "name": "Wayne R",
+            "title": "vice president",       
+            "image": "pix/Cars-Primary/Wayne-car1.jpg",
+            "bios": "Low Ridding and building cars sience 1988",
+            "biol": "none",
+            "contact":{ 
+                "email": "private",
+                "phone": "private",
+                "address": "private"
+            },
+            "carinfo":{ 
+                "make": "Nissan",
+                "model": "Hardbody",
+                "year": "1994",
+                "mods": "Stereo and air bags"
+            }
+        },
+        "chasec":{
+            "name": "Chase C",
+            "title": "Sargent at Arms",            
+            "image": "pix/Cars-Primary/Chase-car1.jpg",
+            "bios": "Marine veteran ",
+            "biol": "none",
+            "contact":{ 
+                "email": "private",
+                "phone": "private",
+                "address": "none"
+            },
+            "carinfo":{ 
+                "make": "Buick",
+                "model": "Riviera",
+                "year": "1985",
+                "mods": "Suspension, wheels, underglow, headlights, tint, stereo"
+            }
+        },
+        "braidenm":{
+            "name": "Braiden M",
+            "title": "Member",            
+            "image": "pix/Cars-Primary/Braiden-car1.jpeg",
+            "bios": "Trust the process ",
+            "biol": "none",
+            "contact":{ 
+                "email": "private",
+                "phone": "360-409-1462",
+                "address": "none"
+            },
+            "carinfo":{ 
+                "make": "2001",
+                "model": "Lincoln",
+                "year": "Town Car",
+                "mods": "Under glow , ostrich interior, subwoofers and 20 inch rims"
+            }
+        },
+        "cameronn":{
+            "name": "Cameron N",
+            "title": "Public Relations",            
+            "image": "pix/Cars-Primary/Cameron-car1.jpg",
+            "bios": "Born January 12th 1983 in Portland Oregon. My first car was a 2 door 1983 Burgundy Cadillac coupe DeVille gifted to me by my Uncle Mississippi after he was murdered in 1989. I have been in love with making Hip-hop music since the year 2000. I started off producing and mixing songs. Then graduated to writing and making my own songs. I have always loved lowriders and street cars for as long as I can remember. I have had the Buicks on gold 14 inch Daytons and the Cadillacs on 22's , as well as a few in-between. My current car is a white 1978 Pontiac Bonneville with a forest green vinyl top on 20's color changing LEDs for headlights and under glow. I have been with my wife (Ayanna) since 2002 and married since 2010. I have 5 children and love Dragonball. I am a family man who loves to spend time with my wife and kids. My hobbies are anything that has to do with my car. Whether that's working on upgrading, showing, cruising, and meet-ups. I also like collecting Dragonball action figures. ",
+            "biol": "Born January 12th 1983 in Portland Oregon raised in San Jose and Stockton California moved up to Vancouver Washington Fall of 1992. I grew up in the Hazel Dell area of Vancouver specifically Courtyard apartments. I was supposed to graduate class of 2001 but unfortunately did not do to being a young reckless trouble making teen. I had my first child in the year 2000 at the age of 17. The year 2000 is also when I started producing hip hop music. I started off as a producer recording and mixing songs for local talent in the Vancouver and Portland area. By the year 2002 I had a small buzz but this is also when I got in trouble with the law and went to jail. While in jail is when I had time to sit down and start to write my own songs. Fall of 2002 is when I was released from jail and started recording and making my own songs. In 2003 I started a production group Reign Productions with my best friend Jesse White aka Whispers and our focus was making a small record label featuring local artists. By 2005 we had a small group of artists and shortened our name from Reign Productions to Reign Pro. We perform 2 to 4 times a month opening for hip-hop legacy acts such as Three 6 Mafia, E-40, DJ Quik, Mack 10, Yukmouth, Bizzy Bone, Layzie Bone, Rappin 4 Tay, and many others.   In 2010 I married my middle school sweetheart and band/group member Ayanna Marie. We have 5 beautiful children Alysha, Trevon, Tarah, Nevaeh, and Adrianna. We have slowed down on preforming live but continue to make music as family has become our main focus. I am now a home owner and a lead reach lift operator for a nationwide food distribution center. I have been in Pack Life since 2022 and my current ride as of fall 2024 is a white 1978 Pontiac Bonneville with a forest green vinyl top on 20's.",
+            "contact":{ 
+                "email": "private",
+                "phone": "private",
+                "address": "private"
+            },
+            "carinfo":{ 
+                "make": "1978",
+                "model": "Pontiac",
+                "year": "Bonneville",
+                "mods": "New forest green vinyl top,  20 inch chrome rims, Edelbrock carburetor and intake manifold, chrome alternator, color changing LEDs for headlights, under glow, and cabin lights, 3 Skare 12 inch speakers with 950 watt Rockford Fosgate amp and 1000 watt Rockford Fosgate amp ."
+            }
+        },
+        "victork":{
+            "name": "Victor K",
+            "title": "Temporary Acting Secretary",            
+            "image": "pix/Cars-Primary/Victor-car1.png",
+            "bios": "Lover of dogs and I put up with humans , barely!",
+            "biol": "I like dogs more than I like humans. So therefore my car is one big dog bed with a driver seat. I have an organization that is dedicated To helping homeless pets.",
+            "contact":{ 
+                "email": "private",
+                "phone": "private",
+                "address": "private"
+            },
+            "carinfo":{ 
+                "make": "Volkswagen",
+                "model": "Karmann Ghia",
+                "year": "1972",
+                "mods": "I bought the car when I was 17 in 1988. She has always been stock until the pandemic. At that point I have been turning her into a spy car that is a work of art. She's my serenity and my escape.  She is a time machine."
+            }
+        },
+        "temp":{
+            "name": "",
+            "title": "",            
+            "image": "pix/Cars-Primary/",
+            "bios": "",
+            "biol": "",
+            "contact":{ 
+                "email": "",
+                "phone": "",
+                "address": ""
+            },
+            "carinfo":{ 
+                "make": "",
+                "model": "",
+                "year": "",
+                "mods": ""
+            }
+        }
+    }
+}
