@@ -1,0 +1,46 @@
+<form class="row g-3 needs-validation" id="register" method="POST" novalidate>
+	<div class="col-md-6 mb-3">
+		<label for="firstName" class="form-label">First Name</label>
+		<input type="text" class="form-control" name="firstName" id="firstName" autocomplete="given-name" placeholder="Required" required>
+		<div class="invalid-feedback">You must enter your First Name.</div>
+	</div>
+	<div class="col-md-6 mb-3">
+		<label for="lastName" class="form-label">Last Name</label>
+		<input type="text" class="form-control" name="lastName" id="lastName" autocomplete="family-name" placeholder="Required" required>
+		<div class="invalid-feedback">You must enter your Last Name.</div>
+	</div>
+	<div class="col-md-12 mb-3">
+		<label for="email" class="form-label">Email</label>
+		<input type="email" class="form-control" name="email" id="email" autocomplete="email" placeholder="Required" required>
+		<div class="invalid-feedback">You must enter your Email.</div>
+	</div>
+	<div class="col-md-12 mb-3">
+		<label for="company" class="form-label">Company</label>
+		<input type="text" class="form-control" name="company" id="company" autocomplete="organization" placeholder="Optional">
+		<div class="invalid-feedback">You must enter your Company.</div>
+	</div>
+	<div class="col-md-6 mb-3">
+		<label for="password" class="form-label">Password</label>
+		<input type="password" class="form-control" name="password" id="password" autocomplete="new-password" placeholder="Required" required>
+		<div class="invalid-feedback">You must enter a Password.</div>
+	</div>
+	<div class="col-md-6 mb-3">
+		<label for="confirm_password" class="form-label">Confirm Password</label>
+		<input type="password" class="form-control" name="confirm_password" id="confirm_password" autocomplete="new-password" placeholder="Required" required>
+		<div class="invalid-feedback">Your Password does not match.</div>
+	</div>
+	<div class="col-md-12 mb-3">
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" name="terms" id="terms" required>
+			<label class="form-check-label" for="terms">
+				I have read and agree to the <a href="#" class="link-primary">Terms of Service</a>, <a href="#" class="link-primary">Privacy Policy</a> and <a href="#" class="link-primary">Cookies Policy</a>.
+			</label>
+			<div class="invalid-feedback">You must agree before registering.</div>
+		</div>
+	</div>
+	<div class="col-md-6 mx-auto mb-3">
+		<div class="d-grid gap-2">
+			<button class="btn btn-primary" type="submit">Create Account</button>
+		</div>
+	</div>
+</form>

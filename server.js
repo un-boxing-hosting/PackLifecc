@@ -1,7 +1,7 @@
 const config = require('./config.json');
 const express = require('express');
-const utils = require('@un-boxing-hosting/boxing-hosting-utils');
-const db = undefined //new utils.db(config.db);
+//const utils = require('@un-boxing-hosting/boxing-hosting-utils');
+//const db = undefined //new utils.db(config.db);
 const uuid = require('uuid').v4
 const session = require('express-session')
 const FileStore = require('session-file-store')(session);
@@ -17,7 +17,7 @@ var dirname = "sites/PackLifecc/server";
 //const dirname = "server";
 if (boxname == "un-boxing-mans-pc") {
     console.log(`Running on ${boxname}`)
-    dirname = "PackLifecc/server"
+    dirname = "./server"//FIX THIS!
 }
 
 const logger = require('morgan');
@@ -36,7 +36,11 @@ app.use(`/events`, express.static(dirname + '/events.html'));
 app.use(`/about`, express.static(dirname + '/members.html'));
 app.use(`/members`, express.static(dirname + '/members.html'));
 
-
+app.use(`/test`,
+    (req, res) => {
+        res.send(`Test`)
+    }
+)
 
 
 // configure passport.js to use the local strategy
@@ -77,10 +81,10 @@ passport.deserializeUser(function (user, done) {
 done(null, user);
 });
  */
-app.listen(port, () => {
+/* app.listen(port, () => {
     console.log(`PackLifecc Listening on port ${port}`)
 
-})
+}) */
 app.set("port", port);
 module.exports = {
     app
