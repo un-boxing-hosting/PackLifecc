@@ -15,8 +15,18 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 	  
-	  <div id="fb-root"></div>
-<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+	  
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '1540948766449273',
+          xfbml            : true,
+          version          : 'v21.0'
+        });
+      };
+    </script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+     
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -44,6 +54,7 @@
           <p>
             <a href="/events" class="m-1"> Events </a>
 			  <a href="/members" class="m-1"> Members</a>
+        <a href="/store" class="m-1"> Store</a>
             <a href="https://www.facebook.com/PackLifeCC" class="m-1">
               Facebook
             </a>
@@ -62,15 +73,11 @@
           </div>
         </div>
       
-		<div hidden="" class="row">
-			<div class="col-sm-4">
-			  <div class="fb-post" 
-		  data-href="https://www.facebook.com/PackLifeCC/posts/pfbid0J1vq4EWfXs9kSBWanZLvc9m4G6F7fQ3YedR3RkGiryya7TpwsHxUkubheaEvTcazl"
-		  data-width="500"></div>
+		<div class="row">
+				<div class="col-sm-4">
+						<div class="fb-post" data-width="500"></div>
 				</div>
-		  </div>
 		</div>
-		
     </main>
     <footer>
       <!-- place footer here -->
@@ -89,3 +96,18 @@
     ></script>
   </body>
 </html>
+
+<script>
+  FB.api(
+    '/theunboxingman/posts',
+    'GET',
+    {"fields":"permalink_url","limit":1},
+    function(response) {
+      if (response.data && response.data[0]) {
+        const latestPost = document.querySelector('.fb-post');
+        latestPost.setAttribute('data-href', response.data[0].permalink_url);
+        FB.XFBML.parse(); // Reparse to show the new post
+      }
+    }
+  );
+</script>

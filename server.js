@@ -13,7 +13,8 @@ const port = 8101;
 //const dirname = "dearassassin/server";
 //const port = 8099;
 const saltRounds = 10;
-var dirname = "sites/PackLifecc/server";
+var dirname = "PackLifecc/server";
+//var dirname = "sites/PackLifecc/server";
 //const dirname = "server";
 if (boxname == "un-boxing-mans-pc") {
     console.log(`Running on ${boxname}`)
@@ -35,6 +36,7 @@ app.use(express.static(dirname + "/"))
 app.use(`/events`, express.static(dirname + '/events.html'));
 app.use(`/about`, express.static(dirname + '/members.html'));
 app.use(`/members`, express.static(dirname + '/members.html'));
+app.use(`/store`, express.static(dirname + '/store.html'));
 
 
 
