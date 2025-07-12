@@ -6,6 +6,13 @@
             "details": "🐺Orchards Cars &amp; Coffee @ Vancouver Mall Every Sunday",
             "link": "https://www.facebook.com/Orchardscarsandcoffee",
             "imageLink": "pix/orchards-cars-coffee.jpg"
+        },
+        {
+            "type": "present",
+            "id":"Cascadia-Tech-25",
+            "details": "🐺Saturday September 20TH 12pm-3pm Cascadia Summer Fest Vancouver, WA",
+            "link": "#",
+            "imageLink": "pix/cta-summer-fest-25.png"
         }
 
     ],
