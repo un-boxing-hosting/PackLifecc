@@ -9,14 +9,21 @@
         },
         {
             "type": "present",
-            "id":"Cascadia-Tech-25",
-            "details": "🐺Saturday September 20TH 12pm-3pm Cascadia Summer Fest Vancouver, WA",
-            "link": "#",
-            "imageLink": "pix/cta-summer-fest-25.png"
+            "id":"giving-tree-25",
+            "details": "🐺Pack Life Giving Tree Amazon Registry",
+            "link": "https://www.amazon.com/registries/gl/guest-view/544B9M9SZDBU",
+            "imageLink": "pix/25Giveing-Tree-base.png"
         }
 
     ],
     "pastlist":[
+        {
+            "type": "past",
+            "id":"Cascadia-Tech-25",
+            "details": "🐺Saturday September 20TH 12pm-3pm Cascadia Summer Fest Vancouver, WA",
+            "link": "#",
+            "imageLink": "pix/cta-summer-fest-25.png"
+        },
         {
             "type": "past",
             "id":"giving-tree",
