@@ -54,7 +54,7 @@
             "contact":{ 
                 "email": "private",
                 "phone": "private",
-                "address": "none"
+                "address": "private"
             },
             "carinfo":{ 
                 "make": "Buick",
@@ -71,7 +71,7 @@
             "biol": "none",
             "contact":{ 
                 "email": "private",
-                "phone": "360-409-1462",
+                "phone": "private",
                 "address": "none"
             },
             "carinfo":{ 
@@ -117,6 +117,25 @@
                 "mods": "I bought the car when I was 17 in 1988. She has always been stock until the pandemic. At that point I have been turning her into a spy car that is a work of art. She's my serenity and my escape.  She is a time machine."
             }
         },
+
+        "Jeromeh":{
+            "name": "Jerome H",
+            "title": "Member",            
+            "image": "pix/Cars-Primary/Jerome-car1.jpeg",
+            "bios": "Jeepenstein",
+            "biol": "",
+            "contact":{ 
+                "email": "private",
+                "phone": "private",
+                "address": "private"
+            },
+            "carinfo":{ 
+                "make": "Jeep",
+                "model": "Grand Cherokee",
+                "year": "2005",
+                "mods": "Extensive car audio upgrades, engine and exhaust mods, 3 inch lift, 20x10 rims, led lighting "
+            }
+        },       
         "temp":{
             "name": "",
             "title": "",            
@@ -124,9 +143,9 @@
             "bios": "",
             "biol": "",
             "contact":{ 
-                "email": "",
-                "phone": "",
-                "address": ""
+                "email": "private",
+                "phone": "private",
+                "address": "private"
             },
             "carinfo":{ 
                 "make": "",
